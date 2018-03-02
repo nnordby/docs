@@ -1,3 +1,5 @@
 name: Nathan Nordby, Doc Creator Extraordinaire
 markdown: kramdown
 theme: jekyll-theme-minimal
+source: /docs
+destination: /docs
