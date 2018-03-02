@@ -3,3 +3,5 @@ markdown: kramdown
 theme: jekyll-theme-minimal
 source: /docs
 destination: /docs
+plugins:
+  - jekyll-feed
