@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Nathan Nordby's Doc Blog</title>
-	<link href="http://nnordby.github.io/docs/blog/atom.xml" rel="self"/>
-	<link href="http://nnordby.github.io/docs/blog"/>
+	<link href="http://docs.nordbygang.com/blog/atom.xml" rel="self"/>
+	<link href="http://docs.nordbygang.com/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://nnordby.github.io/docs/blog</id>
+	<id>http://docs.nordbygang.com/blog</id>
 	<author>
 		<name>Nathan Nordby</name>
 		<email>nathan.nordby@gmail.com</email>
@@ -17,9 +17,9 @@ layout: feed
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://nnordby.github.io/docs{{ post.url }}"/>
+			<link href="http://docs.nordbygang.com/blog{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://nnordby.github.io/docs{{ post.id }}</id>
+			<id>http://docs.nordbygang.com/blog{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
