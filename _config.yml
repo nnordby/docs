@@ -1,3 +1,14 @@
+# ----
+# Site
+
+title: Velma Security Documentation
+description: A collection of policies that help describe Velma's Security.
+google_analytics_key:
+permalink: pretty
+
+# -----
+# Build
+
 name: Nathan Nordby, Doc Creator Extraordinaire
 markdown: kramdown
 remote_theme: CloudCannon/aviator-jekyll-template
