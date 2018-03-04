@@ -3,6 +3,6 @@ markdown: kramdown
 theme: jekyll-theme-minimal
 source: /docs
 destination: /docs
-permalink: docs/blog/:year/:month/:day/:title
+permalink: blog/:year/:month/:day/:title
 plugins:
   - jekyll-feed
