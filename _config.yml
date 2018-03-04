@@ -1,6 +1,6 @@
 name: Nathan Nordby, Doc Creator Extraordinaire
 markdown: kramdown
-theme: jekyll-theme-minimal
+remote_theme: CloudCannon/aviator-jekyll-template
 source: /docs
 destination: /docs
 permalink: blog/:year/:month/:day/:title
